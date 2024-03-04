@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+
+a {
+    list-style: none;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
