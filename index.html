@@ -6,19 +6,18 @@
     <title>Lesson 11</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <img class="header__logo" src="images/logo.svg" alt="logo">
+                <a class="logo" href="index.html"><img class="header__logo" src="images/logo.svg" alt="logo"></a>
                 <nav class="menu">
                     <ul class="menu__list">
-                        <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+                        <li class="menu__item"><a class="menu__link" href="projects.html">Projects</a></li>
+                        <li class="menu__item"><a class="menu__link" href="contacts.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -70,5 +69,59 @@
             </div>
         </div>
     </section>
+    <section class="awards">
+        <div class="container">
+            <div class="awards__inner">
+                <div class="awards__top">
+                    <h3 class="awards__title">Awwwards</h3>
+                    <div class="awards_content">
+                        <ul class="awards_content-list">
+                            <li class="awards_content-item">Site of the day</li>
+                            <li class="awards_content-item">Genesis UI Kit</li>
+                            <li class="awards_content-item">2018</li>
+                        </ul>
+                        <ul class="awards_content-list">
+                            <li class="awards_content-item">Best navigation</li>
+                            <li class="awards_content-item">Genesis Template</li>
+                            <li class="awards_content-item">2018</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="awards__bottom">
+                    <h3 class="awards__title">CSSDesignAwards</h3>
+                    <div class="awards_content">
+                        <ul class="awards_content-list">
+                            <li class="awards_content-item">Site of the day</li>
+                            <li class="awards_content-item">Genesis UI Kit</li>
+                            <li class="awards_content-item">2017</li>
+                        </ul>
+                        <ul class="awards_content-list">
+                            <li class="awards_content-item">Best navigation</li>
+                            <li class="awards_content-item">Genesis Template</li>
+                            <li class="awards_content-item">2016</li>
+                        </ul>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <img class="header__logo" src="images/logo.svg" alt="logo">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item"><a class="menu__link" href="projects.html">Projects</a></li>
+                        <li class="footer__menu-item"><a class="menu__link" href="contacts.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <ul class="footer__social-list">
+                    <li class="footer__social-list"><img class="footer__social-img" src="images/dribbble.svg" alt="dribbble-logo"></li>
+                    <li class="footer__social-list"><img class="footer__social-img" src="images/instagram.svg" alt="instagram-logo"></li>
+                    <li class="footer__social-list"><img class="footer__social-img" src="images/twitter.svg" alt="twitter-logo"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
