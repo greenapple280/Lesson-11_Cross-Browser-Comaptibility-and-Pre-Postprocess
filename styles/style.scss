@@ -1,0 +1,65 @@
+@import 'vars';
+@import 'fonts';
+@import 'normalize';
+@import 'global';
+
+.header {
+    padding: 61px 0 96px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.menu {
+    &__list {
+        display: flex;
+        gap: 29px;       
+    }
+    &__link {
+        font-size: 18px;
+        font-weight: 700;
+        color: $main-color;
+    }
+}
+
+.hello {
+    margin-bottom: 144px;
+    &__quote-title {
+        color: $accent-color;
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 32px;
+    }
+    &__blockquote {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+    &__blockquote-text {
+        @extend %title;
+        max-width: 635px;
+        width: 100%;
+        margin: 0;
+    }
+    &__blockquote-accent-text {
+        color: $accent-color;
+    }
+    &__blockquote-info {
+        align-items: end;
+        margin-right: 75px;
+        margin-top: 0;
+        margin-bottom: 5px;
+        align-self: flex-end;
+        padding-top: 11px;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 30px;
+            height: 2px;
+            top: 0;
+            left: 0;
+            background-image: url(../images/quote-line.svg);
+        }
+    }
+}
